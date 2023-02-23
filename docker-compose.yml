@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+    web:
+        image: tiennp/nginx
+        ports:
+            - 8000:80
